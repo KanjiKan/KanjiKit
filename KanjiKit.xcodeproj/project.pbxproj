@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D368E41E1D009A0083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
+		22D368E51E1D009C0083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
+		22D368E81E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
+		22D368E91E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
+		22D369061E1D03500083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
+		22D369111E1D03530083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
+		22D3691A1E1D03560083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
+		22D369251E1D03580083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22D368EC1E1D01700083A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D368CE1E1CFE180083A2D6;
+			remoteInfo = KanjiKit_iOS;
+		};
+		22D368EE1E1D01750083A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_16;
+			remoteInfo = KanjiKit_macOS;
+		};
+		22D3692C1E1D05230083A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D369041E1D03500083A2D6;
+			remoteInfo = KanjiKit_tvOS;
+		};
+		22D3692E1E1D05360083A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D369181E1D03560083A2D6;
+			remoteInfo = KanjiKit_watchOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223AA0541E1E1827004C8662 /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
+		22D368D51E1CFE180083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D368E31E1D009A0083A2D6 /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKit.swift; sourceTree = "<group>"; };
+		22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKitTests.swift; sourceTree = "<group>"; };
+		22D3690B1E1D03500083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D369161E1D03530083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D3691F1E1D03560083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D3692A1E1D03580083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_15 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D368D11E1CFE180083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D368DC1E1CFE250083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369071E1D03500083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369121E1D03530083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D3691B1E1D03560083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369261E1D03580083A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* KanjiKitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* KanjiKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */,
+			);
+			name = KanjiKitTests;
+			path = Tests/KanjiKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* KanjiKit.framework */,
+				OBJ_15 /* KanjiKitTests.xctest */,
+				22D368D51E1CFE180083A2D6 /* KanjiKit.framework */,
+				22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */,
+				22D3690B1E1D03500083A2D6 /* KanjiKit.framework */,
+				22D369161E1D03530083A2D6 /* KanjiKitTests.xctest */,
+				22D3691F1E1D03560083A2D6 /* KanjiKit.framework */,
+				22D3692A1E1D03580083A2D6 /* KanjiKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				223AA0541E1E1827004C8662 /* KanjiKit.playground */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* KanjiKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* KanjiKit */ = {
+			isa = PBXGroup;
+			children = (
+				22D368E31E1D009A0083A2D6 /* KanjiKit.swift */,
+			);
+			name = KanjiKit;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D368CE1E1CFE180083A2D6 /* KanjiKit_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D368D21E1CFE180083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_iOS" */;
+			buildPhases = (
+				22D368CF1E1CFE180083A2D6 /* Sources */,
+				22D368D11E1CFE180083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiKit_iOS;
+			productName = KanjiKit;
+			productReference = 22D368D51E1CFE180083A2D6 /* KanjiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22D368D71E1CFE250083A2D6 /* KanjiKitTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D368DE1E1CFE250083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_iOS" */;
+			buildPhases = (
+				22D368DA1E1CFE250083A2D6 /* Sources */,
+				22D368DC1E1CFE250083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D368ED1E1D01700083A2D6 /* PBXTargetDependency */,
+			);
+			name = KanjiKitTests_iOS;
+			productName = KanjiKitTests;
+			productReference = 22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22D369041E1D03500083A2D6 /* KanjiKit_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D369081E1D03500083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_tvOS" */;
+			buildPhases = (
+				22D369051E1D03500083A2D6 /* Sources */,
+				22D369071E1D03500083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiKit_tvOS;
+			productName = KanjiKit;
+			productReference = 22D3690B1E1D03500083A2D6 /* KanjiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22D3690D1E1D03530083A2D6 /* KanjiKitTests_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D369131E1D03530083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_tvOS" */;
+			buildPhases = (
+				22D369101E1D03530083A2D6 /* Sources */,
+				22D369121E1D03530083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D3692D1E1D05230083A2D6 /* PBXTargetDependency */,
+			);
+			name = KanjiKitTests_tvOS;
+			productName = KanjiKitTests;
+			productReference = 22D369161E1D03530083A2D6 /* KanjiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22D369181E1D03560083A2D6 /* KanjiKit_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D3691C1E1D03560083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_watchOS" */;
+			buildPhases = (
+				22D369191E1D03560083A2D6 /* Sources */,
+				22D3691B1E1D03560083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiKit_watchOS;
+			productName = KanjiKit;
+			productReference = 22D3691F1E1D03560083A2D6 /* KanjiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22D369211E1D03580083A2D6 /* KanjiKitTests_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D369271E1D03580083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_watchOS" */;
+			buildPhases = (
+				22D369241E1D03580083A2D6 /* Sources */,
+				22D369261E1D03580083A2D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D3692F1E1D05360083A2D6 /* PBXTargetDependency */,
+			);
+			name = KanjiKitTests_watchOS;
+			productName = KanjiKitTests;
+			productReference = 22D3692A1E1D03580083A2D6 /* KanjiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_16 /* KanjiKit_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "KanjiKit_macOS" */;
+			buildPhases = (
+				OBJ_20 /* Sources */,
+				OBJ_22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiKit_macOS;
+			productName = KanjiKit;
+			productReference = OBJ_14 /* KanjiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_23 /* KanjiKitTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "KanjiKitTests_macOS" */;
+			buildPhases = (
+				OBJ_27 /* Sources */,
+				OBJ_29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D368EF1E1D01750083A2D6 /* PBXTargetDependency */,
+			);
+			name = KanjiKitTests_macOS;
+			productName = KanjiKitTests;
+			productReference = OBJ_15 /* KanjiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_16 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "KanjiKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_16 /* KanjiKit_macOS */,
+				OBJ_23 /* KanjiKitTests_macOS */,
+				22D368CE1E1CFE180083A2D6 /* KanjiKit_iOS */,
+				22D368D71E1CFE250083A2D6 /* KanjiKitTests_iOS */,
+				22D369041E1D03500083A2D6 /* KanjiKit_tvOS */,
+				22D3690D1E1D03530083A2D6 /* KanjiKitTests_tvOS */,
+				22D369181E1D03560083A2D6 /* KanjiKit_watchOS */,
+				22D369211E1D03580083A2D6 /* KanjiKitTests_watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D368CF1E1CFE180083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D368E51E1D009C0083A2D6 /* KanjiKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D368DA1E1CFE250083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D368E91E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369051E1D03500083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D369061E1D03500083A2D6 /* KanjiKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369101E1D03530083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D369111E1D03530083A2D6 /* KanjiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369191E1D03560083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D3691A1E1D03560083A2D6 /* KanjiKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D369241E1D03580083A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D369251E1D03580083A2D6 /* KanjiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D368E41E1D009A0083A2D6 /* KanjiKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				22D368E81E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D368ED1E1D01700083A2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D368CE1E1CFE180083A2D6 /* KanjiKit_iOS */;
+			targetProxy = 22D368EC1E1D01700083A2D6 /* PBXContainerItemProxy */;
+		};
+		22D368EF1E1D01750083A2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_16 /* KanjiKit_macOS */;
+			targetProxy = 22D368EE1E1D01750083A2D6 /* PBXContainerItemProxy */;
+		};
+		22D3692D1E1D05230083A2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D369041E1D03500083A2D6 /* KanjiKit_tvOS */;
+			targetProxy = 22D3692C1E1D05230083A2D6 /* PBXContainerItemProxy */;
+		};
+		22D3692F1E1D05360083A2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D369181E1D03560083A2D6 /* KanjiKit_watchOS */;
+			targetProxy = 22D3692E1E1D05360083A2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22D368D31E1CFE180083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = KanjiKit;
+			};
+			name = Debug;
+		};
+		22D368D41E1CFE180083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = KanjiKit;
+			};
+			name = Release;
+		};
+		22D368DF1E1CFE250083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Debug;
+		};
+		22D368E01E1CFE250083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Release;
+		};
+		22D369091E1D03500083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Debug;
+		};
+		22D3690A1E1D03500083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Release;
+		};
+		22D369141E1D03530083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Debug;
+		};
+		22D369151E1D03530083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Release;
+		};
+		22D3691D1E1D03560083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Debug;
+		};
+		22D3691E1E1D03560083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Release;
+		};
+		22D369281E1D03580083A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Debug;
+		};
+		22D369291E1D03580083A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Release;
+		};
+		OBJ_18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Debug;
+		};
+		OBJ_19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KanjiKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KanjiKit;
+			};
+			name = Release;
+		};
+		OBJ_25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Debug;
+		};
+		OBJ_26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KanjiKit.xcodeproj/KanjiKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				TARGET_NAME = KanjiKitTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D368D21E1CFE180083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D368D31E1CFE180083A2D6 /* Debug */,
+				22D368D41E1CFE180083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22D368DE1E1CFE250083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D368DF1E1CFE250083A2D6 /* Debug */,
+				22D368E01E1CFE250083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22D369081E1D03500083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D369091E1D03500083A2D6 /* Debug */,
+				22D3690A1E1D03500083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22D369131E1D03530083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D369141E1D03530083A2D6 /* Debug */,
+				22D369151E1D03530083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22D3691C1E1D03560083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKit_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D3691D1E1D03560083A2D6 /* Debug */,
+				22D3691E1E1D03560083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22D369271E1D03580083A2D6 /* Build configuration list for PBXNativeTarget "KanjiKitTests_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D369281E1D03580083A2D6 /* Debug */,
+				22D369291E1D03580083A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_17 /* Build configuration list for PBXNativeTarget "KanjiKit_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_18 /* Debug */,
+				OBJ_19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "KanjiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_24 /* Build configuration list for PBXNativeTarget "KanjiKitTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
