@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22D368E41E1D009A0083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
-		22D368E51E1D009C0083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
+		220C43561E1E1997004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
+		220C43571E1E1997004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
+		220C43581E1E1998004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
+		220C43591E1E1998004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
+		220C435D1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
+		220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
+		220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
+		220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
 		22D368E81E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 		22D368E91E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
-		22D369061E1D03500083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
 		22D369111E1D03530083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
-		22D3691A1E1D03560083A2D6 /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E31E1D009A0083A2D6 /* KanjiKit.swift */; };
 		22D369251E1D03580083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		223AA0541E1E1827004C8662 /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
+		220C43551E1E1997004A967D /* Kanji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kanji.swift; path = Sources/Kanji.swift; sourceTree = "<group>"; };
+		220C435C1E1E19D1004A967D /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanjiKit.swift; path = Sources/KanjiKit.swift; sourceTree = "<group>"; };
+		220C43631E1E1C8C004A967D /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
 		22D368D51E1CFE180083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22D368E31E1D009A0083A2D6 /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKit.swift; sourceTree = "<group>"; };
 		22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKitTests.swift; sourceTree = "<group>"; };
 		22D3690B1E1D03500083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D369161E1D03530083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220C435A1E1E199A004A967D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				220C435C1E1E19D1004A967D /* KanjiKit.swift */,
+				220C435B1E1E19A2004A967D /* Core */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		220C435B1E1E19A2004A967D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				220C43551E1E1997004A967D /* Kanji.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,29 +179,12 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				223AA0541E1E1827004C8662 /* KanjiKit.playground */,
-				OBJ_7 /* Sources */,
+				220C43631E1E1C8C004A967D /* KanjiKit.playground */,
+				220C435A1E1E199A004A967D /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
 			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* KanjiKit */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		OBJ_8 /* KanjiKit */ = {
-			isa = PBXGroup;
-			children = (
-				22D368E31E1D009A0083A2D6 /* KanjiKit.swift */,
-			);
-			name = KanjiKit;
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -323,7 +328,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				ORGANIZATIONNAME = KanjiKan;
 				TargetAttributes = {
+					22D368CE1E1CFE180083A2D6 = {
+						LastSwiftMigration = 0820;
+					};
+					22D369041E1D03500083A2D6 = {
+						LastSwiftMigration = 0820;
+					};
+					22D369181E1D03560083A2D6 = {
+						LastSwiftMigration = 0820;
+					};
 					OBJ_16 = {
 						LastSwiftMigration = 0820;
 					};
@@ -358,7 +373,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				22D368E51E1D009C0083A2D6 /* KanjiKit.swift in Sources */,
+				220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */,
+				220C43571E1E1997004A967D /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				22D369061E1D03500083A2D6 /* KanjiKit.swift in Sources */,
+				220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */,
+				220C43581E1E1998004A967D /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				22D3691A1E1D03560083A2D6 /* KanjiKit.swift in Sources */,
+				220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */,
+				220C43591E1E1998004A967D /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +424,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				22D368E41E1D009A0083A2D6 /* KanjiKit.swift in Sources */,
+				220C435D1E1E19D1004A967D /* KanjiKit.swift in Sources */,
+				220C43561E1E1997004A967D /* Kanji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +466,8 @@
 		22D368D31E1CFE180083A2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +483,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = KanjiKit;
 			};
 			name = Debug;
@@ -469,6 +492,8 @@
 		22D368D41E1CFE180083A2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = KanjiKit;
 			};
 			name = Release;
