@@ -6,8 +6,6 @@
 //  Copyright © 2017 KanjiKan. All rights reserved.
 //
 
-import Foundation
-
 public struct Kanji {
     public var codepoint: Int
 

@@ -15,6 +15,10 @@
 		220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
 		220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
 		220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
+		2268FA9A1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
+		2268FA9B1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
+		2268FA9C1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
+		2268FA9D1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
 		22D368E81E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 		22D368E91E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 		22D369111E1D03530083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
@@ -56,6 +60,7 @@
 		220C43551E1E1997004A967D /* Kanji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kanji.swift; path = Sources/Kanji.swift; sourceTree = "<group>"; };
 		220C435C1E1E19D1004A967D /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanjiKit.swift; path = Sources/KanjiKit.swift; sourceTree = "<group>"; };
 		220C43631E1E1C8C004A967D /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
+		2268FA991E219307002F28CC /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = Sources/List.swift; sourceTree = "<group>"; };
 		22D368D51E1CFE180083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKitTests.swift; sourceTree = "<group>"; };
@@ -140,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				220C43551E1E1997004A967D /* Kanji.swift */,
+				2268FA991E219307002F28CC /* List.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 			files = (
 				220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43571E1E1997004A967D /* Kanji.swift in Sources */,
+				2268FA9B1E219307002F28CC /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +399,7 @@
 			files = (
 				220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43581E1E1998004A967D /* Kanji.swift in Sources */,
+				2268FA9C1E219307002F28CC /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 			files = (
 				220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43591E1E1998004A967D /* Kanji.swift in Sources */,
+				2268FA9D1E219307002F28CC /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +435,7 @@
 			files = (
 				220C435D1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43561E1E1997004A967D /* Kanji.swift in Sources */,
+				2268FA9A1E219307002F28CC /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
