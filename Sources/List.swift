@@ -15,6 +15,6 @@ public struct List {
 
 extension List: CustomStringConvertible {
     public var description: String {
-        return items.map({ String(describing: $0) }).joined(separator: ", ")
+        return "\(title) - [\(items.map({ String(describing: $0) }).joined(separator: ", "))]"
     }
 }

@@ -19,6 +19,10 @@
 		2268FA9B1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
 		2268FA9C1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
 		2268FA9D1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
+		2268FAA11E2197E6002F28CC /* jlpt.json in Resources */ = {isa = PBXBuildFile; fileRef = 2268FA9F1E219543002F28CC /* jlpt.json */; };
+		2268FAA51E2197F6002F28CC /* jlpt.json in Resources */ = {isa = PBXBuildFile; fileRef = 2268FA9F1E219543002F28CC /* jlpt.json */; };
+		2268FAA61E2197F7002F28CC /* jlpt.json in Resources */ = {isa = PBXBuildFile; fileRef = 2268FA9F1E219543002F28CC /* jlpt.json */; };
+		2268FAA71E2197F8002F28CC /* jlpt.json in Resources */ = {isa = PBXBuildFile; fileRef = 2268FA9F1E219543002F28CC /* jlpt.json */; };
 		22D368E81E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 		22D368E91E1D00F70083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
 		22D369111E1D03530083A2D6 /* KanjiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */; };
@@ -61,6 +65,7 @@
 		220C435C1E1E19D1004A967D /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanjiKit.swift; path = Sources/KanjiKit.swift; sourceTree = "<group>"; };
 		220C43631E1E1C8C004A967D /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
 		2268FA991E219307002F28CC /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = Sources/List.swift; sourceTree = "<group>"; };
+		2268FA9F1E219543002F28CC /* jlpt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jlpt.json; path = Resources/jlpt.json; sourceTree = "<group>"; };
 		22D368D51E1CFE180083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D368E11E1CFE250083A2D6 /* KanjiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D368E61E1D00DF0083A2D6 /* KanjiKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanjiKitTests.swift; sourceTree = "<group>"; };
@@ -150,6 +155,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		2268FA9E1E21952C002F28CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2268FA9F1E219543002F28CC /* jlpt.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +200,7 @@
 			children = (
 				220C43631E1E1C8C004A967D /* KanjiKit.playground */,
 				220C435A1E1E199A004A967D /* Sources */,
+				2268FA9E1E21952C002F28CC /* Resources */,
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
@@ -201,6 +215,7 @@
 			buildPhases = (
 				22D368CF1E1CFE180083A2D6 /* Sources */,
 				22D368D11E1CFE180083A2D6 /* Frameworks */,
+				2268FAA21E2197EE002F28CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +249,7 @@
 			buildPhases = (
 				22D369051E1D03500083A2D6 /* Sources */,
 				22D369071E1D03500083A2D6 /* Frameworks */,
+				2268FAA31E2197F1002F28CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +283,7 @@
 			buildPhases = (
 				22D369191E1D03560083A2D6 /* Sources */,
 				22D3691B1E1D03560083A2D6 /* Frameworks */,
+				2268FAA41E2197F4002F28CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +317,7 @@
 			buildPhases = (
 				OBJ_20 /* Sources */,
 				OBJ_22 /* Frameworks */,
+				2268FAA01E2197CB002F28CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -373,6 +391,41 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2268FAA01E2197CB002F28CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268FAA11E2197E6002F28CC /* jlpt.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2268FAA21E2197EE002F28CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268FAA51E2197F6002F28CC /* jlpt.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2268FAA31E2197F1002F28CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268FAA61E2197F7002F28CC /* jlpt.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2268FAA41E2197F4002F28CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268FAA71E2197F8002F28CC /* jlpt.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22D368CF1E1CFE180083A2D6 /* Sources */ = {
