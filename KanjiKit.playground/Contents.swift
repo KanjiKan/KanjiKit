@@ -13,3 +13,4 @@ var 日本 = List()
 print(日本)
 
 print(loadJLPT())
+

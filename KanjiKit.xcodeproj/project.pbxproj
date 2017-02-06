@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CF38CC11E8814DE00ADD0A8 /* List+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224A3781E48F45200B9C8F7 /* List+JSON.swift */; };
+		1CF38CC21E8814E700ADD0A8 /* List+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224A3781E48F45200B9C8F7 /* List+JSON.swift */; };
+		1CF38CC31E8814FF00ADD0A8 /* List+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224A3781E48F45200B9C8F7 /* List+JSON.swift */; };
 		220C43561E1E1997004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
 		220C43571E1E1997004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
 		220C43581E1E1998004A967D /* Kanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C43551E1E1997004A967D /* Kanji.swift */; };
@@ -15,6 +18,7 @@
 		220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
 		220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
 		220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220C435C1E1E19D1004A967D /* KanjiKit.swift */; };
+		2224A3791E48F45200B9C8F7 /* List+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224A3781E48F45200B9C8F7 /* List+JSON.swift */; };
 		2268FA9A1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
 		2268FA9B1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
 		2268FA9C1E219307002F28CC /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268FA991E219307002F28CC /* List.swift */; };
@@ -64,6 +68,7 @@
 		220C43551E1E1997004A967D /* Kanji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kanji.swift; path = Sources/Kanji.swift; sourceTree = "<group>"; };
 		220C435C1E1E19D1004A967D /* KanjiKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanjiKit.swift; path = Sources/KanjiKit.swift; sourceTree = "<group>"; };
 		220C43631E1E1C8C004A967D /* KanjiKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KanjiKit.playground; sourceTree = "<group>"; };
+		2224A3781E48F45200B9C8F7 /* List+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "List+JSON.swift"; path = "Sources/List+JSON.swift"; sourceTree = "<group>"; };
 		2268FA991E219307002F28CC /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = List.swift; path = Sources/List.swift; sourceTree = "<group>"; };
 		2268FA9F1E219543002F28CC /* jlpt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jlpt.json; path = Resources/jlpt.json; sourceTree = "<group>"; };
 		22D368D51E1CFE180083A2D6 /* KanjiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KanjiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +147,7 @@
 			children = (
 				220C435C1E1E19D1004A967D /* KanjiKit.swift */,
 				220C435B1E1E19A2004A967D /* Core */,
+				2224A37A1E48F45600B9C8F7 /* Extensions */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -153,6 +159,14 @@
 				2268FA991E219307002F28CC /* List.swift */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		2224A37A1E48F45600B9C8F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2224A3781E48F45200B9C8F7 /* List+JSON.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		2268FA9E1E21952C002F28CC /* Resources */ = {
@@ -435,6 +449,7 @@
 				220C435E1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43571E1E1997004A967D /* Kanji.swift in Sources */,
 				2268FA9B1E219307002F28CC /* List.swift in Sources */,
+				1CF38CC11E8814DE00ADD0A8 /* List+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +468,7 @@
 				220C435F1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43581E1E1998004A967D /* Kanji.swift in Sources */,
 				2268FA9C1E219307002F28CC /* List.swift in Sources */,
+				1CF38CC21E8814E700ADD0A8 /* List+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +487,7 @@
 				220C43601E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43591E1E1998004A967D /* Kanji.swift in Sources */,
 				2268FA9D1E219307002F28CC /* List.swift in Sources */,
+				1CF38CC31E8814FF00ADD0A8 /* List+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +506,7 @@
 				220C435D1E1E19D1004A967D /* KanjiKit.swift in Sources */,
 				220C43561E1E1997004A967D /* Kanji.swift in Sources */,
 				2268FA9A1E219307002F28CC /* List.swift in Sources */,
+				2224A3791E48F45200B9C8F7 /* List+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
