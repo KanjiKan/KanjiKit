@@ -20,6 +20,20 @@
                ReferencedContainer = "container:KanjiKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22D369211E1D03580083A2D6"
+               BuildableName = "KanjiKitTests.xctest"
+               BlueprintName = "KanjiKitTests_watchOS"
+               ReferencedContainer = "container:KanjiKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -29,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22D369181E1D03560083A2D6"
+            BuildableName = "KanjiKit.framework"
+            BlueprintName = "KanjiKit_watchOS"
+            ReferencedContainer = "container:KanjiKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
